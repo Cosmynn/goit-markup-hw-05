@@ -647,3 +647,25 @@ body {
   background-color: transparent;
   cursor: pointer;
 }
+/* ----------------- text overlay --------------------- */
+.what-we-do_overlay {
+  position: relative;
+}
+
+.what-we-do-text-overlay {
+  position: absolute;
+  top: 224px;
+  width: 370px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.what-we-do-text-overlay p {
+  margin: 0 auto;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
