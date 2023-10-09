@@ -669,3 +669,30 @@ body {
   font-size: 14px;
   font-weight: 700;
 }
+
+.main-list-images-overlay-container {
+  position: relative;
+  overflow: hidden;
+}
+.main-list-images-overlay-container-text {
+  width: 370px;
+  height: 294px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  position: absolute;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translatey(120%);
+  transition: transform 100ms ease-in-out;
+}
+.main-list-images:hover .main-list-images-overlay-container-text {
+  transform: translatey(0);
+}
+.main-list-images-overlay-container-text p {
+  width: 80%;
+  padding-left: 25px;
+  padding-top: 45px;
+  padding-bottom: 73px;
+  color: #fff;
+}
